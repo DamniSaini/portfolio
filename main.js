@@ -1,5 +1,7 @@
 //circle skill //////////////////////////
 
+
+
 const circles  = document.querySelectorAll('.circle');
 circles.forEach(elem=>{
    var dots = elem.getAttribute("data-dots");

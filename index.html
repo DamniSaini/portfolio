@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Damni's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,20 +14,20 @@
     <header class="header">
         <div class="logo"><span>D</span>amni</div>
         <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a</li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#skills" style="--i:3;">Skills</a</li>
+            <li><a href="#portfolio" style="--i:4;">Portfolio</a></li>
+            <li><a href="#contact" style="--i:5;">Contact</a></li>
         </ul>
         <div id="menu-icon" class="fa-solid fa-bars"></div>
     </header>
     <section id="home" class="home">
         <div class="home-content ">
-            <h1>Hi! I'm Damni Saini </h1>
-            <div class="home-text">
-                <h3>And I'm a</h3>
-                <h3><span>Frontend Developer</span></h3>
+            <div><h3>Hello, It's Me! </h3>
+                 <h1>Damni Saini</h1>
+                <h3>And I'm a <span> Frontend Developer</span></h3>
+               
             </div>
             <p>I'm a frontend developer with a strong passion for creating visually appealing and user-friendly web applications.I focus on crafting responsive and intuitive interfaces that enhance user experience code and continuously improving my skills.</p>
             <div class="info-box">
@@ -156,7 +156,7 @@
                     <h3>Professional skills</h3>
                     <div class="professional">
                         <div class="box">
-                            <div class="circle" data-dots="50" data-percent="90"></div>
+                            <div class="circle" data-dots="80" data-percent="90"></div>
                             <div class="text">
                                 <big>90%</big>
                                 <small>Team Work</small>
@@ -164,7 +164,7 @@
                         </div>
 
                         <div class="box">
-                            <div class="circle" data-dots="50" data-percent="80"></div>
+                            <div class="circle" data-dots="80" data-percent="80"></div>
                             <div class="text">
                                 <big>80%</big>
                                 <small>Creativity</small>
@@ -172,7 +172,7 @@
                         </div>
 
                         <div class="box">
-                            <div class="circle" data-dots="50" data-percent="75"></div>
+                            <div class="circle" data-dots="80" data-percent="75"></div>
                             <div class="text">
                                 <big>75%</big>
                                 <small>Problem Solving</small>
@@ -180,7 +180,7 @@
                         </div>
 
                         <div class="box">
-                            <div class="circle" data-dots="50" data-percent="85"></div>
+                            <div class="circle" data-dots="80" data-percent="85"></div>
                             <div class="text">
                                 <big>85%</big>
                                 <small>Communication</small>
@@ -199,104 +199,91 @@
 
          
 
-       <section id="portfolio" class="portfolio">
-        <div class="main-text">
-            <span>what i will do for you</span>
-            <h2>My Project</h2>
+        <section id="projects">
+            <div class="main-text">
+            <h2>My Projects</h2>
         </div>
-        <div class="container">
-           
-
-            <div class="portfolio-gallery">
-                <div class="port-box mix clone">
-                    <div class="port-image">
-                        <img src="images/carepulse.png">
-                    </div>
-                    <div class="port-content">
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="images/carepulse.png" alt="Project 1 Image">
+                    <div class="project-info">
                         <h3>Carepulse</h3>
-                        <h4>Technologies:React,Next.js</h4>
-                        <p>A healthcare Platform - Allowing users to book doctor appointment and providing a dashboard for admin to manage the schedules.</p>
-                        
-                        <a href="https://care-pulse-swart.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
+                        <p class="tech-info">Technology: React, Next.js, Tailwind CSS, Appwrite</p>
+                        <p>Carepulse is a comprehensive healthcare platform designed to streamline doctor appointment bookings and enhance patient care.Carepulse offers a user-friendly interface for patients to easily schedule, cancel, and manage appointments with their preferred healthcare providers.
 
-            </div>
-
-         
-                <div class="port-box mix clone">
-                    <div class="port-image">
-                        <img src="images/linkup.png">
+                        </p>
                     </div>
-                    <div class="port-content">
-                        <h3>LinkUp</h3>
-                        <h4>Technologies:React,Next.js</h4>
-                        <p>A video conferencing web app - With a user-friendly interface, Implemented real-time communication features and ensured seamless functionality.</p>
-                        
-                        <a href="https://video-conferencing-app-jade-six.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <div class="btn-box"><a href="https://care-pulse-swart.vercel.app" class="btn" target="_blank">Visit Website</a>
+                        <a href="https://github.com/DamniSaini/CarePulse/" class="btn" target="_blank">Source Code</a>
+                    
                     </div>
-
-            </div>
-            <div class="port-box mix python">
-                <div class="port-image">
-                    <img src="images/gpt-3.png">
                 </div>
-                <div class="port-content">
-                    <h3>GPT-3</h3>
-                    <h4>Technologies: React.js</h4>
-                    <p>developed a GPT-3 platorm using react to showcase GPT-3 capabilities, featuring a clean desing and informative content presentation.</p>
-                    <a href="https://gpt-3-react-app-livid.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <div class="project-card">
+                    <img src="images/linkup.png" alt="Project 2 Image">
+                    <div class="project-info">
+                        <h3>Linkup</h3>
+                        <p class="tech-info">Technology: React, Next.js, Tailwind CSS</p>
+                        <p>Linkup is a dynamic video conferencing application inspired by Zoom, designed to facilitate seamless online meetings and collaboration.Linkup offers a high-quality, reliable platform for video calls, virtual meetings, and webinars. The app features real-time video and audio communication, screen sharing, and a user-friendly interface to enhance virtual interactions.
+                        </p>
+                    </div>
+                        <div class="btn-box"><a href="https://link-up-pied.vercel.app" class="btn" target="_blank">Visit Website</a>
+                            <a href="https://github.com/DamniSaini/LinkUp/" class="btn" target="_blank">Source Code</a>
+                      
+                    </div>
                 </div>
-            
+                <div class="project-card">
+                    <img src="images/learnwise.png" alt="Project 1 Image">
+                    <div class="project-info">
+                        <h3>Learnwise</h3>
+                        <p class="tech-info">Technology: HTML,CSS,Javascript,Bootstrap</p>
+                        <p>Learnwise is an engaging e-learning platform crafted to enhance online education.Learnwise provides a user-friendly interface for students and educators. The platform features interactive course materials, intuitive navigation, and responsive design to ensure accessibility across various devices. </p>
+                    </div>
+                        <div class="btn-box"><a href="https://responsive-educational-web-app.vercel.app/" class="btn" target="_blank">Visit Website</a>
+                            <a href="https://github.com/DamniSaini/responsive-educational-web-app" class="btn" target="_blank">Source Code</a>
+                        
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/gpt-3.png" alt="Project 1 Image">
+                    <div class="project-info">
+                        <h3>Gpt-3</h3>
+                        <p class="tech-info">Technology: React and Tailwind CSS</p>
+                        <p>Gpt-3 is a static website using React to showcase GPT-3 capabilities, featuring a clean design and informative content presentation.The website showcases how AI can be urilized to create human-like responses providing users with interactive and persobalized experience.</p>
+                    </div>
+                        <div class="btn-box"><a href="gpt-3-react-app-livid.vercel.app" class="btn" target="_blank">Visit Website</a>
+                            <a href="https://github.com/DamniSaini/gpt_3_react_app" class="btn" target="_blank">Source Code</a>
+                        
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/simon.png" alt="Project 1 Image">
+                    <div class="project-info">
+                        <h3>Simon says Game</h3>
+                        <p class="tech-info">Technology: HTML, CSS, Javascript, Bootstrap</p>
+                        <p>Simon says is an interactive memory game that challenges players. It is a classic 4-color memory game, Challenging players to repeat sequences of colors and focusing on enhancing user engagement and experience.</p>
+                        </div>
+                        <div class="btn-box"><a href="https://simonsaysgame-damni-sainis-projects.vercel.app/" class="btn" target="_blank">Visit Website</a>
+                            <a href="https://github.com/DamniSaini/simon_says_game" class="btn" target="_blank">Source Code</a>
+                       
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/nike.png" alt="Project 1 Image">
+                    <div class="project-info">
+                        <h3>Nike</h3>
+                        <p class="tech-info">Technology: React and Tailwind CSS</p>
+                        <p>This is a Nike product showcase app with intuitive user interface, enabling users to explore and interact various products.The project emphasized responsive design, smooth navigation, and an engaging user-experience across all devices.</p> </div>
+                        <div class="btn-box"><a href="nike-navy-eta.vercel.app" class="btn" target="_blank">Visit Website</a>
+                            <a href="https://github.com/DamniSaini/Nike" class="btn" target="_blank">Source Code</a>
+                       
+                    </div>
+                </div>
+               
+               
+        
             </div>
-            
-<div class="port-box mix web">
-    <div class="port-image">
-        <img src="images/nike.png">
-    </div>
-    <div class="port-content">
-        <h3>Nike</h3>
-        <h4>Technologies: React.js</h4>
-        <p> Designed and develeoped a Nike product showcase web app with an intuitive user interface,enabling users to explore and interact with various products.</p>
-        <a href="https://nike-navy-eta.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-    </div>
-
-</div>
-
-
-
-        <div class="port-box mix web">
-            <div class="port-image">
-                <img src="./images/simon.png">
-            </div>
-            <div class="port-content">
-                <h3>Simon says game</h3>
-                <h4>Technologies:HTML,CSS,JS </h4>
-                <p>Created a classic 4-colour memory game, challenging players to repeat sequences of colors.</p>
-                <a href="https://simonsaysgame-damni-sainis-projects.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-
-    </div>
-
-    <div class="port-box mix web">
-        <div class="port-image">
-            <img src="images/learnwise.png">
-        </div>
-        <div class="port-content">
-            <h3>LearnWise</h3>
-            <h4>Technologies:HTML,CSS,JS </h4>
-            <p>A Responsive educational Web app - Designed and developed a responsive e-learning platform,providing a seamless user experience for accessing educational content on various devices.</p>
-            <a href="https://responsive-educational-web-app.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-        </div>
-
-</div>
-
-
-
-
-        </div>
-        </div>
-       </section>
-
+        </section>
 
  <!-- ---------contact section----- -->
     <section id="contact" class="contact">
@@ -323,8 +310,7 @@
 
 <!-- ----------footer section ---------- -->
 <footer>
-    <p>Copyright &copy; 2023 by Parsecode ||
-         All Right Reserved. 
+    <p>Made with <span class="heart">&hearts;</span> by Damni Saini.
     </p>
 
     <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
