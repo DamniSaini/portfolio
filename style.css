@@ -333,6 +333,12 @@ section{
             margin-bottom: 1.5rem;
             animation: slideLeft 1s ease forwards;
         }
+        .about-btn{
+           display: block;
+           margin: auto;
+         
+        
+        }
 
        
 
