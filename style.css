@@ -143,7 +143,7 @@ section{
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
-    animation-delay: .7s;
+    
 }
 .home-content h3:nth-of-type(2){
     margin-bottom:30px ;
@@ -157,7 +157,7 @@ section{
     margin: -3px 0;
     opacity: 0;
     animation: slideRight 1s ease forwards;
-    animation-delay: 1s;
+   
 }
 
 
@@ -173,6 +173,7 @@ section{
     align-items: center;
     width: 300px;
     margin: 1rem 0 2rem;
+    animation: slideRight 1s ease forwards;
 }
 .info-box h5{
     font-weight: 600;
@@ -188,6 +189,7 @@ section{
     justify-content: space-between;
     width: 320px;
     height: 45px;
+    animation: slideTop 1s ease forwards;
     }
     .btn-box .btn{
         display: inline-flex;
@@ -242,6 +244,7 @@ section{
             justify-content: space-between;
             width: 170px;
             height: 40px;
+            animation: slideTop 1s ease forwards;
         }
         .social-icons a{
             display: inline-flex;
@@ -278,6 +281,7 @@ section{
         }
         .home-image{
             position: relative;
+            animation: slideLeft 1s ease forwards;
         }
         .img-box{
             text-align: center;
@@ -301,6 +305,7 @@ section{
         .about .img-about{
             text-align: center;
             position: relative;
+            animation: slideRight 1s ease forwards;
         }
         .about .img-about img{
             max-width: 400px;
@@ -313,16 +318,20 @@ section{
             font-weight: 200;
             letter-spacing: 2px;
             text-transform: uppercase;
+            animation: slideLeft 1s ease forwards;
+           
         }
         .about-content h2{
             color:var(--hover-color);
             font-weight: 700;
             font-size: var(--normal-font);
+            animation: slideBottom 1s ease forwards;
         }
         .about-content p{
             color:#fdfdfd;
             font-weight: 300;
             margin-bottom: 1.5rem;
+            animation: slideLeft 1s ease forwards;
         }
 
        
@@ -339,6 +348,7 @@ section{
         .main-text h2{
             font-weight: 700;
             font-size: var(--normal-font);
+            animation: slideBottom 1s ease forwards;
         }
         .main-text span{
             color:#fdfdfd;
@@ -346,6 +356,7 @@ section{
             font-weight: 200;
             letter-spacing: 2px;
             text-transform: uppercase;
+            animation: slideLeft 1s ease forwards;
         }
         .skills{
             background: var(-bg-color);
@@ -364,12 +375,14 @@ section{
             margin-bottom: 2rem;
             font-size:var(--normal-font);
             text-align: center;
+            animation: slideBottom 1s ease forwards;
         }
         .skill-left .skill-bar .info{
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 0 10px;
+            animation: slideRight 1s ease forwards;
         }
         .skill-left .skill-bar .bar{
             height: 10px;
@@ -416,6 +429,7 @@ section{
         .professional{
             display: grid;
             grid-template-columns: 1fr 1fr;
+            animation: slideLeft 1s ease forwards;
           
         }
         .box{
@@ -481,6 +495,7 @@ section{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
+        animation: slideTop 1s ease forwards;
     }
     
     .project-card {
@@ -556,6 +571,7 @@ section{
     max-width: 50rem;
     margin: 1rem auto;
     margin-bottom: 3rem;
+    animation: slideTop 1s ease forwards;
  }
  .contact form input,
  .contact form textarea{
